@@ -8,6 +8,7 @@ Analysis of what the [Mirage](https://github.com/Mirage-Source/mirage-core) SSH 
   - `01_url_rows.sql`: every command row containing a URL, with the extracted URLs.
   - `02_url_inventory.sql`: payload hosts with URL mentions, distinct sessions and distinct source IPs.
   - `03_source_ips.sql`: per payload host, which source IPs mentioned it and how many sessions each made.
+  - `adhoc_checks.sql`: read-only checks written by an AI assistant (not by me) to recompute the numbers in the post: dataset summaries, the SSH/Telnet split, the failure counts, and the denominator behind the 9.4% figure.
 - `results/`: saved output of queries 02 and 03 on the two datasets.
 - `iocs.md`: file hashes, defanged payload servers and behaviours.
 
