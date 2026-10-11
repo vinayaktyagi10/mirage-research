@@ -1,0 +1,21 @@
+# Live malware: never commit, never push
+samples/
+quarantine/
+*.bin
+*.elf
+*.zip
+*.7z
+*.tar*
+*.gz
+
+# Raw corpus pulls (large; re-derivable from Postgres / the weekly export)
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Secrets (DB creds for the tunnel)
+.env
