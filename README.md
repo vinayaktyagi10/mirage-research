@@ -1,6 +1,6 @@
 # mirage-research
 
-Analysis of what the [Mirage](https://github.com/Mirage-Source/mirage-core) SSH and Telnet honeypot captured, from a payload URL in the logs to a Monero miner taken apart in an isolated VM.
+Analysis of what the [Mirage](https://github.com/Mirage-Source/mirage-core) SSH and Telnet honeypot captured, from a payload URL in the logs to an XMRig-based miner taken apart in an isolated VM.
 
 ## What is here
 
