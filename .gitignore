@@ -19,3 +19,7 @@ __pycache__/
 
 # Secrets (DB creds for the tunnel)
 .env
+
+# Local notes and working files: never publish
+.learning/
+CLAUDE.md
